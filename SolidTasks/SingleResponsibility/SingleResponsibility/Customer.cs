@@ -26,7 +26,6 @@
         public decimal GetBalanceById(int id)
         {
             var customer = CustomersList.FirstOrDefault(x => x.Id == id);
-            //var allCustomers = from x in CustomersList where x.Id == id select x;
             return customer.Balance;
         }
         public Customer GetById(int id)
