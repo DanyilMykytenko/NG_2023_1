@@ -24,9 +24,9 @@ var drive = new Drive("HDD", "120gb");
 
 var drives = new List<Drive>
 {
-    new Drive("HDD"),
-    new Drive("SSD"),
-    new Drive("SSD", "200gb")
+    new ("HDD"),
+    new ("SSD"),
+    new ("SSD", "200gb")
 };
 
 var laptop = new Laptop
