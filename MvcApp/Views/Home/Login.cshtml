@@ -1,0 +1,33 @@
+﻿@{
+	Layout = null;
+}
+
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="~/css/site.css">
+</head>
+<body>
+    <h2>Login Page</h2><br>
+    <div class="login">
+    <form  method="post" action="/Home/Login">
+        <label><b>User Name
+        </b>
+        </label>
+        <input type="text" name="username" id="Uname" placeholder="Username">
+        <br><br>
+        <label><b>Password
+        </b>
+        </label>
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">
+        <br><br>
+        <input type="submit" name="log" id="log" value="Log In Here">
+        <br><br>
+        <input type="checkbox" id="check">
+        <span>Remember me</span>
+        <br><br>
+        Forgot <a href="#">Password</a>
+    </form>
+</div>
+</body>
+</html>
